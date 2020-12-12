@@ -3,25 +3,6 @@
 }
 
 @media (max-width: 991px) {
-    .menu {
-        padding: 20px 0;
-    }
-
-    .menu .menu_item {
-        margin-right: 15px;
-    }
-
-    .menu .menu_link {
-        font-size: 14px;
-    }
-
-    .contacts .contacts_phone {
-        font-size: 14px;
-    }
-
-    .contacts .contacts_address {
-        font-size: 12px;
-    }
 
     .promo .promo_title {
         font-size: 38px;
@@ -29,93 +10,163 @@
 }
 
 @media (max-width: 767px) {
-    
-    .logo .logo_img {
-        margin-top: 11px;
-    }
 
-    .logo .logo_img img {
-        width: 61px;
-        height: 43px;
+    .flex__block_menu {
+        width: 60%;
     }
     
-    .menu .menu_item {
-        margin-right: 10px;
-    }
-
-    .menu .menu_link {
-        font-size: 11px;
-    }
-
-    .contacts .contacts_phone {
-        font-size: 11px;
-    }
-
-    .contacts .contacts_address {
-        font-size: 10px;
-    }
-
-    .promo .promo_title {
-        font-size: 33px;
-    }
-
-    .promo .promo_descr {
-        font-size: 16px;
-    }
-
-    .promo .promo_btn-white, .promo .promo_btn-red {
-        width: 180px;
-        height: 48px;
-        font-size: 14px;
-    }
-
-    .footer .footer-logo_img {
-        margin-top: 50px;
-    }
-
-    .footer-logo_img img {
-        width: 83px;
-        height: 57px;
-    }
-
-    .footer-menu .footer-menu_item {
+    .menu__menu_item {
         margin-right: 15px;
     }
 
-    .footer-menu .footer-menu_link {
+    .menu__menu_link {
+        font-size: 14px;
+    }
+
+    .flex__contacts {
+        width: 30%;
+    }
+
+    .contacts__phone {
+        font-size: 14px;
+    }
+
+    .contacts__address {
         font-size: 12px;
     }
+
+    .promo__title {
+        width: 485px;
+        font-size: 34px;
+    }
+
+    .promo__descr {
+        width: 465px;
+        font-size: 16px;
+    }
+
+    .promo__btn-white, .promo__btn-red {
+        width: 180px;
+    }
+
 }
 
 @media (max-width: 575px) {
-    
 
-    .header nav {
-        order: -1;
-    }
-
-    .logo {
+    .flex__logo {
         order: 2;
+        width: 33%;
     }
 
-    .menu {
+    .flex__block_menu {
+        order: 1;
+        width: 33%;
+    }
+
+    .block_menu__menu {
         display: none;
     }
 
-    .hamburger {
+    .block_menu__hamburger {
         display: block;
-        position: absolute;
-        left: 5px;
-        top: 50%;
-        transform: translateY(-50%);
-        width: 30px;
     }
 
-    .hamburger span {
-        display: block;
-        height: 3px;
-        width: 100%;
-        background-color: #d51522;
-        margin-bottom: 2px;
+    .flex__contacts {
+        order: 3;
+        width: 33%;
+    }
+
+    .promo__title {
+        width: 370px;
+        font-size: 26px;
+    }
+
+    .promo__descr {
+        width: 350px;
+        font-size: 12px;
+    }
+
+    .promo__btn-white, .promo__btn-red {
+        width: 145px;
+        height: 45px;
+        font-size: 12px;
+    }
+    
+    .menu__item {
+        margin-right: 33px;
+    }
+
+}
+
+@media (max-width: 411px) {
+
+    .flex__block_menu {
+        width: 30%;
+    }
+
+    .flex__logo {
+        width: 30%;
+    }
+
+    .flex__contacts {
+        width: 40%;
+    }
+
+    .promo__title {
+        width: 285px;
+        font-size: 20px;
+    }
+
+    .promo__descr {
+        width: 285px;
+    }
+
+    .promo__btn-white, .promo__btn-red {
+        width: 120px;
+        height: 40px;
+    }
+
+    .promo__btn-white {
+        text-align: center;
+        padding: 0;
+    }
+}
+
+@media (max-width: 319px) {
+
+    .flex__block_menu {
+        width: 25%;
+    }
+
+    .flex__logo {
+        width: 25%;
+    }
+
+    .flex__contacts {
+        width: 50%;
+    }
+
+    .contacts__phone {
+        font-size: 16px;
+    }
+
+    .contacts__address {
+        font-size: 14px;
+    }
+
+    .promo__title {
+        width: 255px;
+        font-size: 18px;
+    }
+
+    .promo__descr {
+        width: 240px;
+        font-size: 10px;
+    }
+
+    .promo__btn-white, .promo__btn-red {
+        width: 100px;
+        height: 35px;
+        font-size: 10px;
     }
 }

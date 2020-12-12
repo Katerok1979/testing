@@ -13,46 +13,45 @@
 <body>
     <header class="header">
         <div class="container">
-            <div class="row">
-                <div class="col-sm-2 col-xl-1">
-                    <div class="logo">
-                        <a href="#" class="logo_img"><img src="img/logo.png" alt="logo"></a>
-                    </div>
+            <div class="flex">
+                <div class="flex__logo">
+                    <a href="#" class="logo__logo_img"><img src="img/logo.png" alt="logo"></a>
                 </div>
-                <div class="col-sm-7 col-xl-6">
+        
+                <div class="flex__block_menu">
+                    <div class="block_menu__hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
                     <nav>
-                        <ul class="menu">
-                            <li class="menu_item"><a href="#" class="menu_link">Услуги</a></li>
-                            <li class="menu_item"><a href="#" class="menu_link">Портфолио</a></li>
-                            <li class="menu_item"><a href="#" class="menu_link">Отзывы</a></li>
-                            <li class="menu_item"><a href="#" class="menu_link">Вакнсии</a></li>
-                            <li class="menu_item"><a href="#" class="menu_link">Контакты</a></li>
-                        </ul>
-                        <div class="hamburger">
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                        </div>
+                        <ul class="block_menu__menu">
+                            <li class="menu__menu_item"><a href="#" class="menu__menu_link">Услуги</a></li>
+                            <li class="menu__menu_item"><a href="#" class="menu__menu_link">Портфолио</a></li>
+                            <li class="menu__menu_item"><a href="#" class="menu__menu_link">Отзывы</a></li>
+                            <li class="menu__menu_item"><a href="#" class="menu__menu_link">Вакнсии</a></li>
+                            <li class="menu__menu_item"><a href="#" class="menu__menu_link">Контакты</a></li>
+                        </ul> 
                     </nav>
                 </div>
-                <div class="col-sm-3 col-xl-2 offset-xl-3">
-                    <div class="contacts">
-                        <a href="tel:+78632431510" class="contacts_phone">8(863)243-15-10</a>
-                        <div class="contacts_address">Ростов-на-Дону</div>
-                    </div>
-                </div>
+                <div class="flex__contacts">
+                    <a href="tel:+78632431510" class="contacts__phone">8(863)243-15-10</a>
+                    <div class="contacts__address">Ростов-на-Дону</div>
+                </div> 
             </div>
         </div>
     </header>
 
-    <section class="promo">
+    <section class="main">
         <div class="container">
             <div class="row">
-                <div class="col-sm-12 col-md-10 col-xl-6">
-                    <h1 class="promo_title">Рекламно-информационное <br> агентство</h1>
-                    <div class="promo_descr">Будем рады, если Вы обратитесь в наше Агентство. Мы готовы <br> предложить Вам передовые решения для продвижения <br> Вашего бизнеса.</div>
-                    <button class="promo_btn-white">Номер телеона</button>
-                    <button class="promo_btn-red">Обратный звонок</button>
+                <div class="col-sm-12 col-md-9">
+                    <div class="promo">
+                        <h1 class="promo__title">Рекламно-информационное агентство</h1>
+                        <div class="promo__descr">Будем рады, если Вы обратитесь в наше Агентство. Мы готовы предложить Вам передовые решения для продвижения Вашего бизнеса.</div>
+                        <button class="promo__btn-white">Номер телефона</button>
+                        <button class="promo__btn-red">Обратный звонок</button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -61,23 +60,26 @@
     <footer class="footer">
         <div class="container">
             <div class="row">
-                <div class="col-sm-2">
+                <div class="col-sm-2 col-xl-2">
                     <div class="footer-logo">
-                        <a href="#" class="footer-logo_img">
+                        <a href="#" class="footer-logo__logo_img">
                             <img src="img/logo_footer.png" alt="logo_footer">
                         </a>
                     </div>
                 </div>
-                <div class="col-sm-10 col-md-9 col-xl-8">
-                    <nav>
-                        <ul class="footer-menu">
-                            <li class="footer-menu_item"><a href="#" class="footer-menu_link">Услуги</a></li>
-                            <li class="footer-menu_item"><a href="#" class="footer-menu_link">Портфолио</a></li>
-                            <li class="footer-menu_item"><a href="#" class="footer-menu_link">Отзывы</a></li>
-                            <li class="footer-menu_item"><a href="#" class="footer-menu_link">Вакнсии</a></li>
-                            <li class="footer-menu_item"><a href="#" class="footer-menu_link">Контакты</a></li>
-                        </ul>
-                    </nav>
+                <div class="col-sm-7 offset-sm-1 col-xl-8">
+                    <div class="footer-menu">
+                        <nav>
+                            <ul class="footer-menu__menu">
+                                <li class="menu__item"><a href="#" class="menu__link">Услуги</a></li>
+                                <li class="menu__item"><a href="#" class="menu__link">Портфолио</a></li>
+                                <li class="menu__item"><a href="#" class="menu__link">Отзывы</a></li>
+                                <li class="menu__item"><a href="#" class="menu__link">Вакнсии</a></li>
+                                <li class="menu__item"><a href="#" class="menu__link">Контакты</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    
                 </div>
             </div>
         </div>
